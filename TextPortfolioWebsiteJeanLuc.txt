@@ -207,7 +207,7 @@ Write me your project
 
 .contact__data-title .contact__data-info .contact__button
 Email
-jl.turquin@diffrenzz.com
+desk@diffrenzz.com
 
 Whatsapp
 +337767777777
