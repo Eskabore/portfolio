@@ -749,7 +749,7 @@ body.dark-theme {
   font-size: var(--small-font-size);
 }
 
-.conatact__button i {
+.contact__button i {
   font-size: 1rem;
   transition: transform .3s;
 }
@@ -836,9 +836,64 @@ body.dark-theme {
 .color-blue {
   color: hsl(207, 56%, 45%)
 }
+
 /*=============== FOOTER ===============*/
+.footer__container {
+  padding: 3rem 0 7rem;
+  text-align: center;
+}
 
+.footer__title {
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 1rem;
+}
 
+.footer__list,
+.footer__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer__list {
+  margin: 2.5rem 0;
+  column-gap: 2.5rem;
+}
+
+.footer__link {
+  color: var(--title-color);
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+  font-size: var(--biggest-font-size);
+  font-weight: var(--font-semi-bold);
+  transition: .9s;
+}
+
+.footer__social {
+  column-gap: 1.25rem;
+}
+
+.footer__social-link {
+  font-size: 1.25rem;
+  color: var(--title-color);
+  transition: transform .3s;
+}
+
+.footer__social-link:hover {
+  transform: translateY(-.2 5rem);
+}
+
+.footer__copy {
+  display: block;
+  margin-top: 4.5rem;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}
 /*=============== SCROLL BAR ===============*/
 
 
