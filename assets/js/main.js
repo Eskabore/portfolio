@@ -36,8 +36,8 @@ const scrollHeader = () => {
   const header = document.getElementById("header");
   // When the scroll is greater than 50 viewport height, add the scroll-header class to the header tag
   this.scrollY >= 50
-    ? header.classList.add("scroll-header")
-    : header.classList.remove("scroll-header");
+    ? header.classList.add("bg-header")
+    : header.classList.remove("bg-header");
 };
 window.addEventListener("scroll", scrollHeader);
 
@@ -142,7 +142,7 @@ const scrollActive = () =>{
 			sectionsClass.classList.add('active-link')
 		}else{
 			sectionsClass.classList.remove('active-link')
-		}                                                    
+		}
 	})
 }
 window.addEventListener('scroll', scrollActive)
@@ -185,3 +185,4 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
