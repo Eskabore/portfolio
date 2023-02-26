@@ -102,7 +102,7 @@ img {
   column-gap: 1.5rem;
 }
 
-.chenge-theme {
+.change-theme {
   font-size: 1.25rem;
   color: var(--title-color);
   cursor: pointer;
@@ -306,6 +306,10 @@ body.dark-theme {
     font-size: var(--biggest-font-size);
     letter-spacing: .3px;
     margin-bottom: .5rem;
+}
+
+.home__title-color {
+  color: var(--first-color);
 }
 
 .home__blob {
@@ -1203,7 +1207,7 @@ body.dark-theme {
   }
 
   .home__shape-waves {
-    width: 100px;
+    width: 200px;
     left: -4rem;
     top: 10rem;
   }
