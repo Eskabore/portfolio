@@ -3,4 +3,4 @@ command = “CI= npm run build”
 publish = "dist"
 
 [dev]
-publish = "src"
+publish = "/"
