@@ -5,7 +5,9 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mkdir -p dist && cp -R src/* dist/",
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "sass assets/css/style.scss dist/css/style.css --no-source-map && sass assets/css/swiper-bundle.scss dist/css/swiper-bundle.css --no-source-map",
+    "build:js": "babel assets/js/main.js -o dist/js/main.js && babel assets/js/scrollreveal.min.js -o dist/js/scrollreveal.min.js && babel assets/js/swiper-bundle.js -o dist/js/swiper-bundle.js",
     "start": "netlify dev"
   },
   "repository": {

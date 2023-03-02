@@ -1,6 +1,6 @@
 [build]
-command = “CI= npm run build”
+command = "CI= npm run build"
 publish = "dist"
 
 [dev]
-publish = "/"
+publish = "."
