@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Visit [here](https://myportfoliojl.netlify.app/)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p dist && cp -R src/* dist/",
+    "start": "netlify dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eskabore/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eskabore/portfolio/issues"
+  },
+  "homepage": "https://github.com/Eskabore/portfolio#readme",
+  "dependencies": {
+    "netlify": "^13.1.2"
+  }
+}
